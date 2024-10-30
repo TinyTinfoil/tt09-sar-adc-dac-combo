@@ -10,10 +10,14 @@ You can also include images in this folder and reference them in the markdown. E
 ## How it works
 
 Explain how your project works
-
+It's a typical SAR ADC with a C2C DAC.
+Enable the DAC output to output voltage to the adc pin instead of sourcing it.
+The DAC output and sample bits are input only (even though they are on the bidirectional buffer.)
+This design supports adaptive clocking (when in ADC mode).
 ## How to test
 
-Explain how to use your project
+Enable the DAC bit and send data to the input bus to get 0-3v3 out.
+Disable the bit, enable the sample bit, and clock for 9 cycles to get data on the output bus, for an input voltage from 0 - 3v3.
 
 ## External hardware
 

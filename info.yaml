@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  title:        "8 bit SAR ADC with CDAC"      # Project title
+  author:       "Venkadesh Eswaranandam"      # Your name
+  discord:      "tinytinfoil"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "A 8 bit SAR ADC that can also output 8 bit voltages from 3.3V to 0V using the integrated CDAC."      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -11,11 +11,11 @@ project:
   tiles: "1x2"          # Valid values for analog projects: 1x2, 2x2
 
   # How many analog pins does your project use?
-  analog_pins: 2        # Valid values: 0 to 6
-  uses_3v3: false       # Set to true if your project uses 3.3V (VAPWR) in addition to 1.8V (VDPWR)
+  analog_pins: 1        # Valid values: 0 to 6
+  uses_3v3: true       # Set to true if your project uses 3.3V (VAPWR) in addition to 1.8V (VDPWR)
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_example"
+  top_module:  "tt_um_veswaranandam_saradc_dac"
 
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
@@ -24,28 +24,28 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
-  ui[4]: ""
-  ui[5]: ""
-  ui[6]: ""
-  ui[7]: ""
+  ui[0]: "DAC bit 0"
+  ui[1]: "DAC bit 1"
+  ui[2]: "DAC bit 2"
+  ui[3]: "DAC bit 3"
+  ui[4]: "DAC bit 4"
+  ui[5]: "DAC bit 5"
+  ui[6]: "DAC bit 6"
+  ui[7]: "DAC bit 7"
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "ADC bit 0"
+  uo[1]: "ADC bit 1"
+  uo[2]: "ADC bit 2"
+  uo[3]: "ADC bit 3"
+  uo[4]: "ADC bit 4"
+  uo[5]: "ADC bit 5"
+  uo[6]: "ADC bit 6"
+  uo[7]: "ADC bit 7"
 
   # Bidirectional pins
-  uio[0]: ""
-  uio[1]: ""
+  uio[0]: "DAC enable"
+  uio[1]: "Sample enable"
   uio[2]: ""
   uio[3]: ""
   uio[4]: ""
@@ -54,7 +54,7 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: ""
+  ua[0]: "Analog input/output"
   ua[1]: ""
   ua[2]: ""
   ua[3]: ""
