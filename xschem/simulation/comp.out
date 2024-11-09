@@ -1,0 +1,58 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__nfet_g5v0d10v5 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_g5v0d10v5 and sky130_fd_pr__nfet_g5v0d10v5 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_g5v0d10v5 and Circuit 2 cell sky130_fd_pr__pfet_g5v0d10v5 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_g5v0d10v5 and sky130_fd_pr__pfet_g5v0d10v5 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_g5v0d10v5_UNEQ2N in circuit lthinverter (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_g5v0d10v5_KLD8Y6 in circuit lthinverter (0)(1 instance)
+
+Subcircuit summary:
+Circuit 1: lthinverter                     |Circuit 2: lthinverter                     
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_g5v0d10v5 (1)           |sky130_fd_pr__nfet_g5v0d10v5 (1)           
+sky130_fd_pr__pfet_g5v0d10v5 (1)           |sky130_fd_pr__pfet_g5v0d10v5 (1)           
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: lthinverter                     |Circuit 2: lthinverter                     
+
+---------------------------------------------------------------------------------------
+Net: VOUT                                  |Net: VOUT                                  
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__pfet_g5v0d10v5/(1|3) = 1   
+                                           |                                           
+Net: VIN                                   |Net: VIN                                   
+  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__nfet_g5v0d10v5/2 = 1       
+  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       |  sky130_fd_pr__pfet_g5v0d10v5/2 = 1       
+                                           |                                           
+Net: GND                                   |Net: GND                                   
+  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   |  sky130_fd_pr__nfet_g5v0d10v5/(1|3) = 1   
+  sky130_fd_pr__nfet_g5v0d10v5/4 = 1       |                                           
+---------------------------------------------------------------------------------------
+DEVICE mismatches: Class fragments follow (with node fanout counts):
+Circuit 1: lthinverter                     |Circuit 2: lthinverter                     
+
+---------------------------------------------------------------------------------------
+Instance: sky130_fd_pr__nfet_g5v0d10v5_UNE |Instance: sky130_fd_pr__nfet_g5v0d10v5:M3  
+  (1,3) = (2,2)                            |  (1,3) = (2,1)                            
+  2 = 2                                    |  2 = 2                                    
+  4 = 2                                    |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+
+Subcircuit pins:
+Circuit 1: lthinverter                     |Circuit 2: lthinverter                     
+-------------------------------------------|-------------------------------------------
+VOUT                                       |VOUT                                       
+GND                                        |VIN **Mismatch**                           
+VIN                                        |GND **Mismatch**                           
+VDDA                                       |VDDA                                       
+---------------------------------------------------------------------------------------
+Cell pin lists for lthinverter and lthinverter altered to match.
+Device classes lthinverter and lthinverter are equivalent.
+
+Final result: Top level cell failed pin matching.

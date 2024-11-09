@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Magic (Sky130A)
+Icon=magic
+Exec=magic -rcfile /home/ttuser/pdk/sky130A/libs.tech/magic/sky130A.magicrc
+Comment=Magic
+Categories=Development;

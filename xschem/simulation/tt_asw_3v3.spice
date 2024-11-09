@@ -1,0 +1,19 @@
+** sch_path: /home/ttuser/Desktop/tt09-sar-adc-dac-combo/xschem/tt_asw_3v3.sch
+.subckt tt_asw_3v3 VGND VDPWR VAPWR ctrl mod bus
+*.PININFO mod:B bus:B ctrl:I VGND:B VDPWR:B VAPWR:B
+XM1 tgon_n net2 VAPWR sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.84 nf=1 m=1
+XM2 tgon_n net2 VGND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=0.42 nf=1 m=1
+XM3 tgon net1 VAPWR sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.84 nf=1 m=1
+XM4 tgon net1 VGND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=0.42 nf=1 m=1
+XM5 bus tgon_n mod sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=180 nf=18 m=1
+XM6 bus tgon mod sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=60 nf=12 m=1
+XM7 ctrl_n ctrl VGND sky130_fd_pr__nfet_01v8 L=0.15 W=0.42 nf=1 m=1
+XM8 ctrl_n ctrl VDPWR sky130_fd_pr__pfet_01v8_hvt L=0.15 W=1 nf=1 m=1
+XM9 net1 ctrl VGND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=0.42 nf=1 m=1
+XM10 net2 ctrl_n VGND sky130_fd_pr__nfet_g5v0d10v5 L=0.5 W=0.42 nf=1 m=1
+XM11 net1 net2 net3 sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.42 nf=1 m=1
+XM12 net2 net1 net4 sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.42 nf=1 m=1
+XM13 net3 net1 VAPWR sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.42 nf=1 m=1
+XM14 net4 net2 VAPWR sky130_fd_pr__pfet_g5v0d10v5 L=0.5 W=0.42 nf=1 m=1
+.ends
+.end

@@ -1,0 +1,84 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1731192507
+<< error_s >>
+rect 7054 905 7064 3499
+rect 7454 931 7464 3525
+rect 2572 -973 2924 -652
+rect 1656 -1417 2008 -1096
+rect 2678 -1187 2730 -1057
+rect 2760 -1187 2812 -1057
+rect 3832 -1185 4184 -864
+rect 4832 -1261 5184 -940
+rect 3938 -1399 3990 -1269
+rect 4020 -1399 4072 -1269
+rect 4938 -1475 4990 -1345
+rect 5020 -1475 5072 -1345
+rect 1762 -1631 1814 -1501
+rect 1844 -1631 1896 -1501
+rect 2378 -2103 2730 -1782
+rect 2934 -1899 3286 -1578
+rect 2999 -2113 3051 -1983
+rect 3081 -2113 3135 -1983
+rect 3165 -2113 3217 -1983
+rect 4026 -2011 4378 -1690
+rect 2484 -2317 2536 -2187
+rect 2566 -2317 2618 -2187
+rect 4091 -2225 4143 -2095
+rect 4173 -2225 4227 -2095
+rect 4257 -2225 4309 -2095
+<< metal1 >>
+rect 0 0 200 200
+rect 0 -400 200 -200
+rect 0 -800 200 -600
+rect 0 -1200 200 -1000
+rect 0 -1600 200 -1400
+use tt_asw_3v3  x1
+timestamp 1731192507
+transform 1 0 3572 0 1 855
+box 0 -757 10957 4352
+use tt_asw_3v3  x2
+timestamp 1731192507
+transform 1 0 7264 0 1 881
+box 0 -757 10957 4352
+use sky130_fd_sc_hd__inv_1  x3 ~/pdk/sky130A/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1704896540
+transform 1 0 1694 0 1 -1678
+box -38 -48 314 592
+use sky130_fd_sc_hd__nor2_1  x4 ~/pdk/sky130A/libs.ref/sky130_fd_sc_hd/mag
+timestamp 1704896540
+transform 1 0 2972 0 1 -2160
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x5
+timestamp 1704896540
+transform 1 0 3870 0 1 -1446
+box -38 -48 314 592
+use sky130_fd_sc_hd__nor2_1  x6
+timestamp 1704896540
+transform 1 0 4064 0 1 -2272
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x7
+timestamp 1704896540
+transform 1 0 4870 0 1 -1522
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x8
+timestamp 1704896540
+transform 1 0 2610 0 1 -1234
+box -38 -48 314 592
+use sky130_fd_sc_hd__inv_1  x9
+timestamp 1704896540
+transform 1 0 2416 0 1 -2364
+box -38 -48 314 592
+<< labels >>
+flabel metal1 0 0 200 200 0 FreeSans 256 0 0 0 GND
+port 0 nsew
+flabel metal1 0 -1200 200 -1000 0 FreeSans 256 0 0 0 VDD
+port 3 nsew
+flabel metal1 0 -1600 200 -1400 0 FreeSans 256 0 0 0 VOUT
+port 4 nsew
+flabel metal1 0 -400 200 -200 0 FreeSans 256 0 0 0 VDDA
+port 1 nsew
+flabel metal1 0 -800 200 -600 0 FreeSans 256 0 0 0 Cin
+port 2 nsew
+<< end >>
