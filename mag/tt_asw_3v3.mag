@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1731213143
+timestamp 1731231864
 << viali >>
 rect 1246 4228 3444 4262
 rect 3410 2876 3444 4228
@@ -468,77 +468,21 @@ rect 1750 2354 1752 2750
 rect 1928 2354 1930 2750
 rect 1750 2352 1930 2354
 use sky130_fd_pr__nfet_g5v0d10v5_SFRJCA  sky130_fd_pr__nfet_g5v0d10v5_SFRJCA_0
-timestamp 1716235358
+timestamp 1731231864
 transform 1 0 2345 0 1 3552
 box -1147 -758 1147 758
 use sky130_fd_pr__pfet_g5v0d10v5_CYUY46  sky130_fd_pr__pfet_g5v0d10v5_CYUY46_0
-timestamp 1716240358
+timestamp 1731231864
 transform 1 0 1841 0 1 1347
 box -1651 -1297 1651 1297
 use tt_lvl_shift  tt_lvl_shift_0
-timestamp 1716279736
+timestamp 1731231864
 transform -1 0 880 0 -1 3322
 box -2 -532 804 532
 use tt_small_inv  tt_small_inv_0
-timestamp 1718441111
+timestamp 1731231864
 transform 0 1 -4806 -1 0 4940
 box 668 4844 940 5328
-use sky130_fd_pr__pfet_g5v0d10v5_W38GTH  XM1
-timestamp 1731213143
-transform 1 0 213 0 1 286
-box 0 0 1 1
-use sky130_fd_pr__nfet_g5v0d10v5_6XHUDR  XM2
-timestamp 1731213143
-transform 1 0 734 0 1 140
-box 0 0 1 1
-use sky130_fd_pr__pfet_g5v0d10v5_W38GTH  XM3
-timestamp 1731213143
-transform 1 0 1225 0 1 126
-box 0 0 1 1
-use sky130_fd_pr__nfet_g5v0d10v5_6XHUDR  XM4
-timestamp 1731213143
-transform 1 0 1746 0 1 -20
-box 0 0 1 1
-use sky130_fd_pr__pfet_g5v0d10v5_AQJ7ZU  XM5
-timestamp 1731213143
-transform 1 0 3580 0 1 882
-box 0 0 1 1
-use sky130_fd_pr__nfet_g5v0d10v5_9A5DGK  XM6
-timestamp 1731213143
-transform 1 0 6313 0 1 278
-box 0 0 1 1
-use sky130_fd_pr__nfet_01v8_L7T3GD  XM7
-timestamp 1731213143
-transform 1 0 7618 0 1 -281
-box 0 0 1 1
-use sky130_fd_pr__pfet_01v8_hvt_XGS3BL  XM8
-timestamp 1731213143
-transform 1 0 7987 0 1 -267
-box 0 0 1 1
-use sky130_fd_pr__nfet_g5v0d10v5_6XHUDR  XM9
-timestamp 1731213143
-transform 1 0 8411 0 1 -351
-box 0 0 1 1
-use sky130_fd_pr__nfet_g5v0d10v5_6XHUDR  XM10
-timestamp 1731213143
-transform 1 0 8902 0 1 -416
-box 0 0 1 1
-use sky130_fd_pr__pfet_g5v0d10v5_6ELFTH  XM11
-timestamp 1731213143
-transform 1 0 9393 0 1 -472
-box 0 0 1 1
-use sky130_fd_pr__pfet_g5v0d10v5_6ELFTH  XM12
-timestamp 1731213143
-transform 1 0 9914 0 1 -567
-box 0 0 1 1
-use sky130_fd_pr__pfet_g5v0d10v5_6ELFTH  XM13
-timestamp 1731213143
-transform 1 0 10435 0 1 -662
-box 0 0 1 1
-use sky130_fd_pr__pfet_g5v0d10v5_6ELFTH  XM14
-timestamp 1731213143
-transform 1 0 10956 0 1 -757
-box 0 0 1 1
 << labels >>
 rlabel metal4 20 0 260 4352 1 VDPWR
 port 2 n power input

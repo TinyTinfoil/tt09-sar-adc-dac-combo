@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        "8 bit SAR ADC with CDAC"      # Project title
-  author:       "Venkadesh Eswaranandam"      # Your name
+  title:        "8 bit SAR CDAC"      # Project title
+  author:       "Venkadesh Eswaranandam & Allan Huang"      # Your name
   discord:      "tinytinfoil"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "A 8 bit SAR ADC that can also output 8 bit voltages from 3.3V to 0V using the integrated CDAC."      # One line description of what your project does
+  description:  "A 8 bit SAR DAC that outputs voltages from 3.3V to 0V"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -34,14 +34,14 @@ pinout:
   ui[7]: "DAC bit 7"
 
   # Outputs
-  uo[0]: "ADC bit 0"
-  uo[1]: "ADC bit 1"
-  uo[2]: "ADC bit 2"
-  uo[3]: "ADC bit 3"
-  uo[4]: "ADC bit 4"
-  uo[5]: "ADC bit 5"
-  uo[6]: "ADC bit 6"
-  uo[7]: "ADC bit 7"
+  uo[0]: ""
+  uo[1]: ""
+  uo[2]: ""
+  uo[3]: ""
+  uo[4]: ""
+  uo[5]: ""
+  uo[6]: ""
+  uo[7]: ""
 
   # Bidirectional pins
   uio[0]: "DAC enable"
@@ -54,7 +54,7 @@ pinout:
   uio[7]: ""
 
   # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-  ua[0]: "Analog input/output"
+  ua[0]: "Analog output"
   ua[1]: ""
   ua[2]: ""
   ua[3]: ""

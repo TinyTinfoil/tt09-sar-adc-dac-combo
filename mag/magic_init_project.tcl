@@ -8,7 +8,7 @@
 
 # Change the settings below to match your design:
 # ------------------------------------------------
-set TOP_LEVEL_CELL     tt_um_sar_dac
+set TOP_LEVEL_CELL     tt_um_veswaranandam_saradc_dac
 set TEMPLATE_FILE      tt_analog_1x2_3v3.def
 set POWER_STRIPE_WIDTH 2um                 ;# The minimum width is 1.2um
 
