@@ -7,13 +7,6 @@ You can also include images in this folder and reference them in the markdown. E
 512 kb in size, and the combined size of all images must be less than 1 MB.
 -->
 
-## How it works
-
-Explain how your project works
-It's a typical SAR ADC with a C2C DAC.
-Enable the DAC output to output voltage to the adc pin instead of sourcing it.
-The DAC output and sample bits are input only (even though they are on the bidirectional buffer.)
-This design supports adaptive clocking (when in ADC mode).
 
 ## How to test
 
