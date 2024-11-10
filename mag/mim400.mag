@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1731238228
+timestamp 1731256823
 << metal3 >>
 rect 646 8 1044 2991
 << metal4 >>
@@ -8,11 +8,11 @@ rect -132 2432 735 2703
 rect -368 2031 955 2432
 rect 42 800 562 2031
 use mimcaptut200b  mimcaptut200b_0
-timestamp 1731226444
+timestamp 1731256823
 transform 1 0 1058 0 -1 2139
 box -1050 -850 50 650
 use mimcaptut200b  mimcaptut200b_1
-timestamp 1731226444
+timestamp 1731256823
 transform 1 0 1050 0 1 850
 box -1050 -850 50 650
 << end >>

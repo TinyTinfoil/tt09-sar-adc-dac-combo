@@ -1,37 +1,13 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1731256243
+timestamp 1731256823
 use tt_asw_3v3  x1
-timestamp 1731231864
+timestamp 1731256823
 transform 1 0 6104 0 1 -5137
 box 0 0 3612 4352
 use tt_asw_3v3  x2
-timestamp 1731231864
+timestamp 1731256823
 transform -1 0 9755 0 -1 4116
 box 0 0 3612 4352
-use sky130_fd_sc_hd__inv_1  x3 ~/pdk/sky130A/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1731231864
-transform -1 0 5218 0 1 -2556
-box -38 -48 314 592
-use sky130_fd_sc_hd__inv_1  x5
-timestamp 1731231864
-transform 0 1 5002 1 0 -4138
-box -38 -48 314 592
-use sky130_fd_sc_hd__nor2_1  x6 ~/pdk/sky130A/libs.ref/sky130_fd_sc_hd/mag
-timestamp 1731231864
-transform 0 1 5008 1 0 -3818
-box -38 -48 314 592
-use sky130_fd_sc_hd__inv_1  x7
-timestamp 1731231864
-transform -1 0 5562 0 1 -2556
-box -38 -48 314 592
-use sky130_fd_sc_hd__inv_1  x8
-timestamp 1731231864
-transform -1 0 5250 0 1 -3378
-box -38 -48 314 592
-use sky130_fd_sc_hd__inv_1  x9
-timestamp 1731231864
-transform -1 0 5582 0 1 -3376
-box -38 -48 314 592
 << end >>
