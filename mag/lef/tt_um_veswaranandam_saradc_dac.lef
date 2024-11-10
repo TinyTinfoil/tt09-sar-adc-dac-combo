@@ -440,14 +440,18 @@ MACRO tt_um_veswaranandam_saradc_dac
     END
   END VAPWR
   OBS
+      LAYER nwell ;
+        RECT 14.820 21.980 128.250 216.115 ;
+      LAYER li1 ;
+        RECT 15.010 22.370 128.060 215.725 ;
       LAYER met1 ;
-        RECT 13.310 11.185 135.235 222.540 ;
+        RECT 11.180 11.185 135.235 217.260 ;
       LAYER met2 ;
-        RECT 13.310 11.405 134.805 222.540 ;
+        RECT 11.180 11.405 134.805 217.260 ;
       LAYER met3 ;
-        RECT 14.760 11.020 133.705 221.880 ;
+        RECT 11.480 8.170 133.705 217.570 ;
       LAYER met4 ;
-        RECT 13.310 11.330 133.920 222.540 ;
+        RECT 11.180 11.330 133.920 217.260 ;
   END
 END tt_um_veswaranandam_saradc_dac
 END LIBRARY
