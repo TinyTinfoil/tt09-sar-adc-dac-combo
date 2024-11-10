@@ -10,9 +10,9 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How to test
 
-Enable the DAC bit and send data to the input bus to get 0-3v3 out.
-Disable the bit, enable the sample bit, and clock for 9 cycles to get data on the output bus, for an input voltage from 0 - 3v3.
+This is a test of a C2C array of MIM capacitors to determine how suceptible they are to noise.
+Clock the digital pins to see what areas are most suceptible to noise. This layout was done intentionaly bad to determine as to what degree layout matters.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+No external hardware used.

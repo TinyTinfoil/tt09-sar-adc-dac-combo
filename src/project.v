@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module tt_um_veswaranandam_saradc_dac (
+module tt_um_tinytinfoil_saradc_dac (
     input  wire       VGND,
     input  wire       VDPWR,    // 1.8v power supply
     input  wire       VAPWR,    // 3.3v power supply

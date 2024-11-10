@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        "8 bit SAR CDAC"      # Project title
+  title:        "Noise test for a CDAC capacitor chain"      # Project title
   author:       "Venkadesh Eswaranandam & Allan Huang"      # Your name
   discord:      "tinytinfoil"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "A 8 bit SAR DAC that outputs voltages from 3.3V to 0V"      # One line description of what your project does
+  description:  "This project was made to answer the question of ow much does bad layout affect performance of a SAR ADC"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -15,7 +15,7 @@ project:
   uses_3v3: true       # Set to true if your project uses 3.3V (VAPWR) in addition to 1.8V (VDPWR)
 
   # Your top module name must start with "tt_um_". Make it unique by including your github username:
-  top_module:  "tt_um_veswaranandam_saradc_dac"
+  top_module:  "tt_um_tinytinfoil_saradc_dac"
 
   # List your project's source files here. Source files must be in ./src and you must list each source file separately, one per line:
   source_files:        
@@ -44,8 +44,8 @@ pinout:
   uo[7]: ""
 
   # Bidirectional pins
-  uio[0]: "DAC enable"
-  uio[1]: "Sample enable"
+  uio[0]: ""
+  uio[1]: ""
   uio[2]: ""
   uio[3]: ""
   uio[4]: ""
