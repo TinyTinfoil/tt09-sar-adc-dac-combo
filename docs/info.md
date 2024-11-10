@@ -14,6 +14,7 @@ It's a typical SAR ADC with a C2C DAC.
 Enable the DAC output to output voltage to the adc pin instead of sourcing it.
 The DAC output and sample bits are input only (even though they are on the bidirectional buffer.)
 This design supports adaptive clocking (when in ADC mode).
+
 ## How to test
 
 Enable the DAC bit and send data to the input bus to get 0-3v3 out.
